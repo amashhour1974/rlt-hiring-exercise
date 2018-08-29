@@ -45,6 +45,7 @@ We know time is precious, we won't mark you down for not doing the extra credits
 * Run run inside docker
 * Make the checker script SSH into the instance, check if services are running and start it if it isn't.
 
+
 # Solution Overview
 
 This solution contains the sample code using Terraform and It is broken down into two
