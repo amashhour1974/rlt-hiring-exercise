@@ -45,29 +45,6 @@ We know time is precious, we won't mark you down for not doing the extra credits
 * Run run inside docker
 * Make the checker script SSH into the instance, check if services are running and start it if it isn't.
 
-# Questions
-
-#### What scripting languages can I use?
-
-Anyone you like. You’ll have to justify your decision. We use Bash, Python and JavaScript internally. Please pick something you're familiar with, as you'll need to be able to discuss it.
-
-#### Will I have to pay for the AWS charges?
-
-No. You are expected to use free-tier resources only and not generate any charges. Please remember to delete your resources once the review process is over so you are not charged by AWS.
-
-#### What will you be grading me on?
-
-Scripting skills, elegance, understanding of the technologies you use, security, documentation.
-
-#### Will I have a chance to explain my choices?
-
-Feel free to comment your code, or put explanations in a pull request within the repo.
-If we proceed to a phone interview, we’ll be asking questions about why you made the choices you made.
-
-#### Why doesn't the test include X?
-
-Good question. Feel free to tell us how to make the test better. Or, you know, fork it and improve it!
-
 # Solution Overview
 
 This solution contains the sample code using Terraform and It is broken down into two
