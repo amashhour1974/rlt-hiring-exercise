@@ -67,3 +67,24 @@ If we proceed to a phone interview, we’ll be asking questions about why you ma
 #### Why doesn't the test include X?
 
 Good question. Feel free to tell us how to make the test better. Or, you know, fork it and improve it!
+
+# Solution Overview
+
+This solution contains the sample code using Terraform and It is broken down into two
+folders:
+
+* [single-web-server](./single-web-server): Deploy a single EC2 Instance with a web server that will return
+  "Hello, World" for every request on port 8080.
+* [cluster-of-web-servers](./cluster-of-web-servers): Deploy a cluster of EC2 Instances in an Auto Scaling Group (ASG)
+  and an Elastic Load Balancer (ELB). The ELB listens on port 80 and distributes load across the EC2 Instances, each
+  of which runs the same "Hello, World" web server.
+
+##  Deployment Steps
+
+**Note**: The resources deployed into your AWS account as following steps
+
+1. Install [Terraform](https://www.terraform.io/).
+1. Set your AWS credentials as the environment variables `AWS_ACCESS_KEY_ID` and `AWS_SECRET_ACCESS_KEY`.
+1. `cd` into one of the two example folders.
+1. Run `terraform plan`.
+1. If the plan looks good, run `terraform apply`.
